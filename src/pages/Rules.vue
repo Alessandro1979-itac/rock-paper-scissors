@@ -8,6 +8,7 @@
 
 <script>
 	import BackButton from '@/components/Buttons/Back.vue';
+
 	export default {
 		name: 'Rules',
 		components: {
@@ -23,13 +24,16 @@
 		align-items: center;
 		width: 100%;
 		height: 100%;
+
 		.title {
 			color: $white;
 			letter-spacing: 2px;
 		}
+
 		.image {
 			width: 55%;
 			margin-top: rfs(50px);
+
 			@media (max-width: 768px) {
 				width: 80%;
 			}

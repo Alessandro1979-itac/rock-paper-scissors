@@ -9,6 +9,7 @@
 
 <script>
 	import RulesButton from '@/components/Buttons/Rules.vue';
+
 	export default {
 		name: 'Home',
 		components: {
@@ -24,15 +25,18 @@
 		justify-content: center;
 		align-items: center;
 		margin-top: rfs(-50px);
+
 		.start {
 			font-size: rfs(4rem);
 			font-weight: bold;
 			text-decoration: none;
 			color: $white;
 			transition: transform .3s linear, letter-spacing .3s linear;
+
 			&:visited {
 				color: $white;
 			}
+
 			&:hover,
 			&:focus {
 				outline: none;

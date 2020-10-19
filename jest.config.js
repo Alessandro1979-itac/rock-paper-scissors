@@ -9,4 +9,3 @@ module.exports = {
 		'!src/router/index.js',
 	],
 };
-

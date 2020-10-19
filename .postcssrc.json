@@ -1,6 +1,6 @@
 {
-    "plugins": {
-        "rfs": true,
-        "autoprefixer": {}
-    }
+	"plugins": {
+		"rfs": true,
+		"autoprefixer": {}
+	}
 }

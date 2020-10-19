@@ -1,24 +1,24 @@
 module.exports = {
-  root: true,
-  env: {
-    node: true,
-  },
-  extends: [
-    'plugin:vue/recommended',
+	root: true,
+	env: {
+		node: true,
+	},
+	extends: [
+		'plugin:vue/recommended',
 		'@vue/airbnb',
 		'plugin:vue-types/strongly-recommended',
-  ],
-  parserOptions: {
-    parser: 'babel-eslint',
-  },
-  rules: {
+	],
+	parserOptions: {
+		parser: 'babel-eslint',
+	},
+	rules: {
 		'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
 		'import/no-extraneous-dependencies': 'off',
 		'import/prefer-default-export': 'off',
 		'indent': ['error', 'tab'],
 		'max-len': ['error', { code: 200 }],
-    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-		'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+		'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+		'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 		'no-param-reassign': [
 			'error',
 			{
@@ -49,9 +49,9 @@ module.exports = {
 			'switchCase': 1,
 		}],
 		'vue/singleline-html-element-content-newline': 'off',
-  },
-  overrides: [
-    {
+	},
+	overrides: [
+		{
 			files: ['*.vue'],
 			rules: {
 				indent: 'off'
@@ -66,5 +66,5 @@ module.exports = {
 				jest: true,
 			},
 		},
-  ],
+	],
 };

@@ -22,7 +22,9 @@
 	import RulesButton from '@/components/Buttons/Rules.vue';
 	import BackButton from '@/components/Buttons/Back.vue';
 	import Result from '@/components/Result/Result.vue';
+
 	import { TOKENS_LIST } from '@/utils';
+
 	const {
 		ROCK,
 		PAPER,
@@ -30,6 +32,7 @@
 		LIZARD,
 		SPOCK,
 	} = TOKENS_LIST;
+
 	export default {
 		name: 'Game',
 		components: {
@@ -67,6 +70,7 @@
 		align-items: center;
 		margin-top: rfs(-50px);
 		width: 100%;
+
 		.tokens {
 			display: grid;
 			grid-template-areas:
@@ -77,6 +81,7 @@
 			grid-template-rows: 120px 160px 120px;
 			grid-column-gap: 15px;
 			background: url('~@/assets/bg-pentagon.svg') no-repeat 50% 50%/90%;
+
 			@media (max-width: 430px) {
 				grid-template-rows: 75px 105px 85px;
 				grid-column-gap: unset;

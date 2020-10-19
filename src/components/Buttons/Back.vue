@@ -20,6 +20,7 @@
 		border: none;
 		margin-top: rfs(50px);
 		cursor: pointer;
+
 		&:hover,
 		&:focus {
 			outline: none;

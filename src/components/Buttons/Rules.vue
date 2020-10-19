@@ -23,6 +23,7 @@
 		font-weight: 500;
 		margin-top: rfs(50px);
 		transition: background 0.3s linear;
+
 		&:hover,
 		&:focus {
 			outline: none;

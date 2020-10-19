@@ -6,14 +6,14 @@
 		@mouseleave="resetPositions"
 	>
 		<Header />
-		<div class="view" >
+		<div class="view">
 			<RouterView />
 		</div>
 	</div>
 </template>
 
 <script>
-	import Header from '@/components/Header.vue';
+	import Header from '@/components/Header/Header.vue';
 
 	import { bgColorFrom, bgColorTo } from './styles/variables.scss';
 
